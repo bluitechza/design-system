@@ -1,8 +1,45 @@
-# Blue-I-Tech — Brand Kit
+<h1 align="center">Blue-I-Tech — Brand Kit</h1>
 
-Refined from the primary `B` mark in `external-design/logo.png` — the original design
-was vector-traced (not redrawn), so the letterform, diagonal slices and pixel-dissolve
-are preserved exactly, now as clean scalable SVG. PNG/ICO exports are generated from them.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="png/horizontal-white-1600.png">
+    <img alt="Blue-I-Tech" src="png/horizontal-1600.png" width="460">
+  </picture>
+</p>
+
+<p align="center">
+  Refined primary logo &nbsp;·&nbsp; horizontal &amp; stacked lockups &nbsp;·&nbsp; colour palette &nbsp;·&nbsp; design tokens
+</p>
+
+<br>
+
+Refined from the primary `B` mark in `external-design/logo.png` — the original design was
+**vector-traced (not redrawn)**, so the letterform, diagonal slices and pixel-dissolve are
+preserved exactly, now as clean scalable SVG. PNG/ICO exports are generated from the masters.
+
+## Logo
+
+<table>
+  <tr>
+    <td align="center" width="220"><img src="png/logo-mark-512.png" width="128" alt="Primary mark"></td>
+    <td align="center" width="220"><img src="png/icon-light-512.png" width="128" alt="App icon — light"></td>
+    <td align="center" width="220"><img src="png/icon-dark-512.png" width="128" alt="App icon — dark"></td>
+    <td align="center" width="220">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="png/stacked-white-1200.png">
+        <img src="png/stacked-1200.png" width="150" alt="Stacked lockup">
+      </picture>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><sub><b>Primary mark</b></sub></td>
+    <td align="center"><sub><b>App icon · light</b></sub></td>
+    <td align="center"><sub><b>App icon · dark</b></sub></td>
+    <td align="center"><sub><b>Stacked lockup</b></sub></td>
+  </tr>
+</table>
+
+> Full system (every variant + palette) → **[`brand-board.png`](brand-board.png)** · interactive sheet → **[`brand.html`](brand.html)**
 
 ## Logo files
 | File | Use |
@@ -23,23 +60,25 @@ are preserved exactly, now as clean scalable SVG. PNG/ICO exports are generated 
 | `brand-board.png` | One-image overview of the system |
 
 ## Palette
-| Token | Hex | Role |
-|-------|-----|------|
-| Sky Blue | `#4E92F5` | gradient top, highlights, hover |
-| **Brand Blue** | `#3B82F6` | **primary** — buttons, links, accents |
-| Royal Blue | `#2F6BD6` | secondary blue, gradient mid |
-| Deep Blue | `#2350A6` | text-safe blue (AAA on white), pressed, depth |
-| Midnight Navy | `#16295C` | dark surfaces, headers, footers |
-| Signal Cyan | `#38C6F4` | tech accent, focus rings, data-viz |
-| Ink | `#0E1A33` | primary text |
-| Slate | `#5B7189` | muted / secondary text |
-| Mist | `#E3EAF6` | borders, dividers |
-| Cloud | `#F5F8FD` | app / section background |
-| Success / Warning / Danger | `#23B07D` / `#F2A93B` / `#E5544B` | semantic |
+| | Token | Hex | Role |
+|---|-------|-----|------|
+| <img src="png/swatch/sky.png" width="22"> | Sky Blue | `#4E92F5` | gradient top, highlights, hover |
+| <img src="png/swatch/brand.png" width="22"> | **Brand Blue** | `#3B82F6` | **primary** — buttons, links, accents |
+| <img src="png/swatch/royal.png" width="22"> | Royal Blue | `#2F6BD6` | secondary blue, gradient mid |
+| <img src="png/swatch/deep.png" width="22"> | Deep Blue | `#2350A6` | text-safe blue (AAA on white), pressed, depth |
+| <img src="png/swatch/navy.png" width="22"> | Midnight Navy | `#16295C` | dark surfaces, headers, footers |
+| <img src="png/swatch/cyan.png" width="22"> | Signal Cyan | `#38C6F4` | tech accent, focus rings, data-viz |
+| <img src="png/swatch/ink.png" width="22"> | Ink | `#0E1A33` | primary text |
+| <img src="png/swatch/slate.png" width="22"> | Slate | `#5B7189` | muted / secondary text |
+| <img src="png/swatch/mist.png" width="22"> | Mist | `#E3EAF6` | borders, dividers |
+| <img src="png/swatch/cloud.png" width="22"> | Cloud | `#F5F8FD` | app / section background |
+| <img src="png/swatch/success.png" width="22"> | Success | `#23B07D` | positive / confirm |
+| <img src="png/swatch/warning.png" width="22"> | Warning | `#F2A93B` | caution |
+| <img src="png/swatch/danger.png" width="22"> | Danger | `#E5544B` | error / destructive |
 
 Gradient — `linear-gradient(160deg, #4E92F5, #3B82F6, #2350A6)`
 
-> Accessibility: `#3B82F6` passes AA only at large / UI sizes on white. For body text
+> **Accessibility:** `#3B82F6` passes AA only at large / UI sizes on white. For body text
 > on white use **Deep Blue** (`#2350A6`, 7.6:1) or Ink/Navy.
 
 ## Tokens for developers
