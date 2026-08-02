@@ -1,0 +1,62 @@
+/* Blue-I-Tech — Brand palette & design tokens
+   Derived from the primary "B" mark. Import once, use everywhere. */
+
+:root {
+  /* ---- Brand blues (the gradient, light -> deep) ---- */
+  --bit-sky:        #4E92F5;  /* gradient top, highlights, hover        */
+  --bit-blue:       #3B82F6;  /* PRIMARY — buttons, links, key accents  */
+  --bit-royal:      #2F6BD6;  /* secondary blue, gradient mid           */
+  --bit-deep:       #2350A6;  /* gradient bottom, pressed, depth        */
+  --bit-navy:       #16295C;  /* dark surfaces, headers, footers        */
+
+  /* ---- Accent ---- */
+  --bit-cyan:       #38C6F4;  /* tech accent, focus rings, data-viz     */
+
+  /* ---- Neutrals ---- */
+  --bit-ink:        #0E1A33;  /* primary text                           */
+  --bit-slate:      #5B7189;  /* secondary / muted text                 */
+  --bit-mist:       #E3EAF6;  /* borders, dividers, hairlines           */
+  --bit-cloud:      #F5F8FD;  /* app / section background               */
+  --bit-white:      #FFFFFF;  /* surfaces, reversed logo                */
+
+  /* ---- Semantic ---- */
+  --bit-success:    #23B07D;
+  --bit-warning:    #F2A93B;
+  --bit-danger:     #E5544B;
+  --bit-info:       #3B82F6;
+
+  /* ---- Gradients ---- */
+  --bit-gradient-brand: linear-gradient(160deg, #4E92F5 0%, #3B82F6 50%, #2350A6 100%);
+  --bit-gradient-hero:  linear-gradient(120deg, #16295C 0%, #2350A6 55%, #3B82F6 100%);
+
+  /* ---- Functional aliases (theme this layer, not the raw scale) ---- */
+  --color-primary:     var(--bit-blue);
+  --color-primary-ink: var(--bit-deep);   /* primary that needs AA on white text */
+  --color-accent:      var(--bit-cyan);
+  --color-text:        var(--bit-ink);
+  --color-text-muted:  var(--bit-slate);
+  --color-bg:          var(--bit-cloud);
+  --color-surface:     var(--bit-white);
+  --color-border:      var(--bit-mist);
+  --color-on-primary:  var(--bit-white);
+
+  /* ---- Elevation tuned to the navy ---- */
+  --bit-shadow-sm: 0 1px 2px rgba(14,26,51,.08);
+  --bit-shadow-md: 0 8px 24px rgba(12,42,120,.10);
+  --bit-shadow-lg: 0 20px 48px rgba(12,42,120,.16);
+
+  --bit-radius:    14px;
+  --bit-radius-lg: 22px;
+}
+
+/* Dark theme — flip surfaces onto the navy end of the scale */
+:root[data-theme="dark"],
+.bit-dark {
+  --color-text:       #EAF1FF;
+  --color-text-muted: #8FA6C9;
+  --color-bg:         #0E1C3F;
+  --color-surface:    #16295C;
+  --color-border:     #24386B;
+  --color-primary:    var(--bit-sky);   /* lighter blue reads better on navy */
+  --color-on-primary: #0E1A33;
+}

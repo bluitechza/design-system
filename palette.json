@@ -1,0 +1,49 @@
+{
+  "name": "Blue-I-Tech",
+  "description": "Brand palette and design tokens derived from the primary B mark.",
+  "color": {
+    "brand": {
+      "sky":   { "value": "#4E92F5", "role": "gradient top, highlights, hover" },
+      "blue":  { "value": "#3B82F6", "role": "primary — buttons, links, accents" },
+      "royal": { "value": "#2F6BD6", "role": "secondary blue, gradient mid" },
+      "deep":  { "value": "#2350A6", "role": "gradient bottom, pressed, AA text on white" },
+      "navy":  { "value": "#16295C", "role": "dark surfaces, headers, footers" }
+    },
+    "accent": {
+      "cyan":  { "value": "#38C6F4", "role": "tech accent, focus rings, data-viz" }
+    },
+    "neutral": {
+      "ink":   { "value": "#0E1A33", "role": "primary text" },
+      "slate": { "value": "#5B7189", "role": "secondary / muted text" },
+      "mist":  { "value": "#E3EAF6", "role": "borders, dividers" },
+      "cloud": { "value": "#F5F8FD", "role": "app / section background" },
+      "white": { "value": "#FFFFFF", "role": "surfaces, reversed logo" }
+    },
+    "semantic": {
+      "success": { "value": "#23B07D" },
+      "warning": { "value": "#F2A93B" },
+      "danger":  { "value": "#E5544B" },
+      "info":    { "value": "#3B82F6" }
+    }
+  },
+  "gradient": {
+    "brand": "linear-gradient(160deg, #4E92F5 0%, #3B82F6 50%, #2350A6 100%)",
+    "hero":  "linear-gradient(120deg, #16295C 0%, #2350A6 55%, #3B82F6 100%)"
+  },
+  "contrast": {
+    "note": "WCAG 2.1 ratios, rounded.",
+    "brand_on_white":  { "ratio": 3.68,  "pass": "AA-large / UI only" },
+    "deep_on_white":   { "ratio": 7.58,  "pass": "AAA" },
+    "navy_on_white":   { "ratio": 13.95, "pass": "AAA" },
+    "ink_on_white":    { "ratio": 17.29, "pass": "AAA" },
+    "slate_on_white":  { "ratio": 5.04,  "pass": "AA" },
+    "white_on_deep":   { "ratio": 7.58,  "pass": "AAA" },
+    "cyan_on_navy":    { "ratio": 7.01,  "pass": "AAA" }
+  },
+  "typography": {
+    "display": "Poppins, Sora, system-ui, sans-serif — SemiBold/ExtraBold for the wordmark & headings",
+    "body":    "Inter, 'Segoe UI', system-ui, sans-serif — Regular/Medium for UI & copy",
+    "mono":    "'JetBrains Mono', ui-monospace, monospace — code & technical labels"
+  },
+  "radius": { "base": "14px", "large": "22px" }
+}
