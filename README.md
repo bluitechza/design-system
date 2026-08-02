@@ -2,13 +2,13 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="png/horizontal-white-1600.png">
-    <img alt="Blue-I-Tech" src="png/horizontal-1600.png" width="460">
+    <source media="(prefers-color-scheme: dark)" srcset="png/horizontal-tagline-white-1600.png">
+    <img alt="Blue-I-Tech — Technology. Built for business." src="png/horizontal-tagline-1600.png" width="500">
   </picture>
 </p>
 
 <p align="center">
-  Refined primary logo &nbsp;·&nbsp; horizontal &amp; stacked lockups &nbsp;·&nbsp; colour palette &nbsp;·&nbsp; design tokens
+  Refined primary logo &nbsp;·&nbsp; lockups (with &amp; without tagline) &nbsp;·&nbsp; colour palette &nbsp;·&nbsp; design tokens
 </p>
 
 <br>
@@ -44,9 +44,13 @@ preserved exactly, now as clean scalable SVG. PNG/ICO exports are generated from
 ## Logo files
 | File | Use |
 |------|-----|
-| `horizontal.svg` | **Primary lockup** — mark + wordmark, for headers, sites, email signatures |
+| `horizontal-tagline.svg` | **Primary lockup with tagline** — mark + wordmark + “Technology. Built for business.” |
+| `horizontal-tagline-white.svg` | Reversed lockup with tagline — for dark backgrounds |
+| `horizontal.svg` | Horizontal lockup, no tagline — headers, sites, email signatures |
 | `horizontal-white.svg` | Reversed horizontal lockup — for dark UI, navy, photos |
-| `stacked.svg` | Stacked lockup — mark over wordmark; avatars, cards, posters, tight/centred spaces |
+| `stacked-tagline.svg` | Stacked lockup with tagline — centred, full brand statement |
+| `stacked-tagline-white.svg` | Reversed stacked lockup with tagline |
+| `stacked.svg` | Stacked lockup, no tagline — avatars, cards, tight/centred spaces |
 | `stacked-white.svg` | Reversed stacked lockup — for dark backgrounds |
 | `logo-mark.svg` | Gradient mark on light backgrounds (icon master) |
 | `logo-mark-white.svg` | Reversed — white mark for dark UI, navy, photos |
@@ -55,7 +59,7 @@ preserved exactly, now as clean scalable SVG. PNG/ICO exports are generated from
 | `icon-dark.svg` | App / social icon — mark on navy rounded tile |
 | `favicon.svg` | Full mark reversed on a blue tile, tuned for small sizes |
 | `favicon.ico` | Multi-size icon (16 / 32 / 48) |
-| `png/` | Raster exports (transparent): horizontal @1600, stacked @1200, marks @512–1024, icons @512/180, favicons @16–180 |
+| `png/` | Raster exports (transparent): lockups (±tagline) @1600/1200, marks @512–1024, icons @512/180, favicons @16–180, palette swatches |
 | `brand.html` | Interactive brand sheet — variants, palette, usage, don'ts |
 | `brand-board.png` | One-image overview of the system |
 
