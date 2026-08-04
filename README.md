@@ -1,9 +1,9 @@
-<h1 align="center">Blue-I-Tech — Brand Kit</h1>
+<h1 align="center">Blu-I-Tech — Brand Kit</h1>
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="png/horizontal-tagline-white-1600.png">
-    <img alt="Blue-I-Tech — Technology. Built for business." src="png/horizontal-tagline-1600.png" width="500">
+    <img alt="Blu-I-Tech — Technology. Built for business." src="png/horizontal-tagline-1600.png" width="500">
   </picture>
 </p>
 
