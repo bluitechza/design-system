@@ -1,0 +1,17 @@
+# Never apply EOL conversion to binary assets (prevents PDF/PNG corruption on clone)
+*.pdf   binary
+*.png   binary
+*.ico   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.ttf   binary
+*.woff  binary
+*.woff2 binary
+
+# Text sources: normalize to LF in the repo
+*.svg   text eol=lf
+*.html  text eol=lf
+*.css   text eol=lf
+*.json  text eol=lf
+*.md    text eol=lf
